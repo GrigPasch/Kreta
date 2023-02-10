@@ -63,13 +63,13 @@ const Navbar = () => {
           <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
               <Link className='hover:border-b-black' href='/#about'>
-                <li className=' py-4 text-m text-[#000]'>About</li>
+                <li className=' py-4 text-m text-[#000]'>Home</li>
               </Link>
               <Link href='/#menu'>
-                <li className='py-4 text-m text-[#000]'>Menu</li>
+                <li className='py-4 text-m text-[#000]'>Kleine Speisekarte</li>
               </Link>
               <Link href='/#contact'>
-                <li className='py-4 text-m text-[#000]'>Contact</li>
+                <li className='py-4 text-m text-[#000]'>Kontakt - Öffnungszeiten & Impressum</li>
               </Link>
             </ul>
           </div>
