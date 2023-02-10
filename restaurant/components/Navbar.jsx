@@ -35,13 +35,13 @@ const Navbar = () => {
         <div>
           <ul className='hidden md:flex text-[#000000]'>
             <Link href='/#about' scroll={false}>
-              <li className='ml-10 text-md uppercase hover:border-b hover:border-[#000]'>About</li>
+              <li className='ml-10 text-md uppercase hover:border-b hover:border-[#000]'>Home</li>
             </Link>
             <Link href='/#menu' scroll={false}>
-              <li className='ml-10 text-md uppercase hover:border-b hover:border-[#000]'>Menu</li>
+              <li className='ml-10 text-md uppercase hover:border-b hover:border-[#000]'>Kleine Speisekarte</li>
             </Link>
             <Link href='/#contact' scroll={false}>
-              <li className='ml-10 text-md uppercase hover:border-b hover:border-[#000]'>Contact</li>
+              <li className='ml-10 text-md uppercase hover:border-b hover:border-[#000]'>Kontakt - Öffnungszeiten & Impressum</li>
             </Link>
           </ul>
           <div onClick={handleNav} className='md:hidden'>
